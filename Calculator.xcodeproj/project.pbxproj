@@ -13,6 +13,8 @@
 		F17869EC1B2F15B70097E6AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17869EB1B2F15B70097E6AE /* Images.xcassets */; };
 		F17869EF1B2F15B70097E6AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F17869ED1B2F15B70097E6AE /* LaunchScreen.xib */; };
 		F17869FB1B2F15B70097E6AE /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17869FA1B2F15B70097E6AE /* CalculatorTests.swift */; };
+		F1D5F8CF1B3091C500CAC379 /* Calculator_lego.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D5F8CE1B3091C500CAC379 /* Calculator_lego.png */; };
+		F1D5F8D11B3094F400CAC379 /* Lego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1D5F8D01B3094F400CAC379 /* Lego.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F17869F41B2F15B70097E6AE /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17869F91B2F15B70097E6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F17869FA1B2F15B70097E6AE /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		F1D5F8CE1B3091C500CAC379 /* Calculator_lego.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calculator_lego.png; sourceTree = "<group>"; };
+		F1D5F8D01B3094F400CAC379 /* Lego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lego.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		F17869E11B2F15B70097E6AE /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				F1D5F8D01B3094F400CAC379 /* Lego.jpg */,
+				F1D5F8CE1B3091C500CAC379 /* Calculator_lego.png */,
 				F17869E41B2F15B70097E6AE /* AppDelegate.swift */,
 				F17869E61B2F15B70097E6AE /* ViewController.swift */,
 				F17869E81B2F15B70097E6AE /* Main.storyboard */,
@@ -194,6 +200,8 @@
 			files = (
 				F17869EA1B2F15B70097E6AE /* Main.storyboard in Resources */,
 				F17869EF1B2F15B70097E6AE /* LaunchScreen.xib in Resources */,
+				F1D5F8D11B3094F400CAC379 /* Lego.jpg in Resources */,
+				F1D5F8CF1B3091C500CAC379 /* Calculator_lego.png in Resources */,
 				F17869EC1B2F15B70097E6AE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				F1786A001B2F15B70097E6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1786A011B2F15B70097E6AE /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				F1786A031B2F15B70097E6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

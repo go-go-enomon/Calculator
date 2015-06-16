@@ -16,190 +16,212 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="Calculator_lego.png" translatesAutoresizingMaskIntoConstraints="NO" id="qRi-mP-fVO">
+                                <rect key="frame" x="-42" y="-167" width="407" height="333"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="Calculator_lego.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yf7-Fb-vab">
+                                <rect key="frame" x="-43" y="241" width="407" height="333"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ant-NM-vzh">
-                                <rect key="frame" x="232" y="495" width="85" height="46.5"/>
+                                <rect key="frame" x="239" y="500.5" width="85" height="46.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="+">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="plus" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dDE-8c-a7D"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0p-jd-tzQ">
-                                <rect key="frame" x="169" y="438" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="158" y="423" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="3">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="select3" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ug1-Ed-7bP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dp-h5-9As">
-                                <rect key="frame" x="16" y="372" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
-                                <state key="normal" title="4">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="select4" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pvo-Cs-aCZ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39Y-df-Fi2">
-                                <rect key="frame" x="231" y="438" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="239" y="418" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="-">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="minus" destination="vXZ-lx-hvc" eventType="touchUpInside" id="otb-gI-w3P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9R-78-lcJ">
-                                <rect key="frame" x="169" y="497" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="158" y="498" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="=">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="equal" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xhU-Om-6sS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="455-gM-FdG">
-                                <rect key="frame" x="16" y="500" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="-5" y="505" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="AC">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="allclear" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bft-Pg-TCE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXR-sg-3NI">
-                                <rect key="frame" x="16" y="441" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="-6" y="423" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="1">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="select1" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BXW-0m-dUz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yej-fx-PMe">
-                                <rect key="frame" x="96" y="438" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="76" y="423" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="2">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="select2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="B0U-Wu-2ag"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGR-M4-Pfd">
-                                <rect key="frame" x="96" y="372" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="75" y="341" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="5">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="select5" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0rp-pT-6aZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbM-vK-MMV">
-                                <rect key="frame" x="169" y="374" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="159" y="341" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="6">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="select6" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hmM-Vy-pGV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-Cb-U8u">
-                                <rect key="frame" x="16" y="305" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
-                                <state key="normal" title="7">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="select7" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4KJ-H6-cX5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPX-dF-VX1">
-                                <rect key="frame" x="96" y="305" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
-                                <state key="normal" title="8">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="select8" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a8q-O5-cDq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1v4-RJ-LVl">
-                                <rect key="frame" x="169" y="305" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="159" y="260" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="9">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="select9" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dLq-pu-Tgy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrX-ME-v7Y">
-                                <rect key="frame" x="232" y="374" width="85" height="48"/>
+                                <rect key="frame" x="240" y="338" width="85" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="×">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="multi" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oce-CQ-WNq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLZ-aC-dhC">
-                                <rect key="frame" x="232" y="305" width="85" height="48"/>
+                                <rect key="frame" x="240" y="255" width="85" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="÷">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="devided" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a8A-d7-KVa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gV6-IB-bBF">
-                                <rect key="frame" x="97" y="500" width="85" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <rect key="frame" x="75" y="505" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="0">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="select0" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mxB-cW-xPA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfH-2X-cp8">
-                                <rect key="frame" x="0.0" y="40" width="320" height="135"/>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dp-h5-9As">
+                                <rect key="frame" x="-7" y="340" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="select4" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pvo-Cs-aCZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-Cb-U8u">
+                                <rect key="frame" x="-5" y="260" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="select7" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4KJ-H6-cX5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPX-dF-VX1">
+                                <rect key="frame" x="75" y="260" width="85" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="select8" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a8q-O5-cDq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfH-2X-cp8">
+                                <rect key="frame" x="0.0" y="162" width="320" height="85"/>
+                                <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="70"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="shadowOffset" width="3" height="0.0"/>
+                                <color key="shadowColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="3" height="2"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -213,4 +235,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Calculator_lego.png" width="2696" height="2708"/>
+    </resources>
 </document>
